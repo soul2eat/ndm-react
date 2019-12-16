@@ -54,9 +54,10 @@ const styles = (theme: Theme) => ({
     message: {
         display: 'flex',
         alignItems: 'center',
+        maxWidth: '200px'
     },
 });
- 
+
 class SnackbarUI extends React.PureComponent<Props> {
     public static readonly defaultProps = defaultProps;
 
