@@ -1,0 +1,29 @@
+{
+  "name": "ndm-react",
+  "version": "0.0.1",
+  "description": "Dowmload manager on node&react",
+  "main": "app.js",
+  "dependencies": {
+    "@types/node": "^12.7.12",
+    "ws": "^7.2.0"
+  },
+  "devDependencies": {
+    "awesome-typescript-loader": "^5.2.1",
+    "copy-webpack-plugin": "^5.0.4",
+    "electron": "^6.0.12",
+    "ts-loader": "^6.2.0",
+    "typescript": "^3.6.4",
+    "uglifyjs-webpack-plugin": "^2.2.0",
+    "webpack": "^4.41.1",
+    "webpack-cli": "^3.3.9",
+    "webpack-dev-server": "^3.8.2"
+  },
+  "scripts": {
+    "dev": "NODE_ENV=development webpack --mode development",
+    "run-dev": "electron ./dev-build/main",
+    "build": "NODE_ENV=production webpack --mode production",
+    "run-prod": "electron ../dist/main"
+  },
+  "author": "SoulEat",
+  "license": "ISC"
+}
