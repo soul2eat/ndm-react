@@ -1,0 +1,64 @@
+body{
+    margin: 0;
+}
+
+.header{
+	display: flex;
+    flex-direction: row;
+    background: #343a40;
+    height: 31px;
+    user-select: none;
+}
+.header-title{
+	display: flex;
+    align-items: flex-start;
+    color: #9a9da0;
+    padding-left: 10px;
+}
+.header-drag{
+    flex: 1;
+    height: 100%;
+    -webkit-app-region: drag;
+}
+.header-bar{
+    display: flex;
+    align-items: flex-end;
+}
+
+.header-icon-container{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    padding-right: 10px;
+}
+.header-icon-container > img{
+    width: 1.3em;
+    padding-top: 7px;
+}
+.header-icon-container > img:hover{
+    filter: brightness(0) invert(1);
+}
+
+
+.header-icon{
+    font-size: 1.6em;
+    color: #9a9da0;
+    flex: 1;
+}
+
+.header-icon-close{
+    padding-top: 1px;
+}
+
+.header-icon-maximize{
+    width: 1.4em;
+    padding-top: 5px;
+}
+.header-icon-maximize img:hover{
+    filter: brightness() invert(1);
+}
+
+
+.header-icon:hover{
+    color: white;
+}

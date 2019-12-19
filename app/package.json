@@ -10,7 +10,6 @@
   "devDependencies": {
     "awesome-typescript-loader": "^5.2.1",
     "copy-webpack-plugin": "^5.1.1",
-    "electron": "^6.0.12",
     "ts-loader": "^6.2.0",
     "typescript": "^3.6.4",
     "webpack": "^4.41.1",
@@ -19,9 +18,9 @@
   },
   "scripts": {
     "dev": "NODE_ENV=development webpack --mode development",
-    "run-dev": "electron ./dev-build/main",
+    "electron": "cd .. && npm run dev",
     "build": "NODE_ENV=production webpack --mode production",
-    "run-prod": "electron ../dist/main"
+    "prod": "cd .. && npm start"
   },
   "author": "SoulEat",
   "license": "ISC"

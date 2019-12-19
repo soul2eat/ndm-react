@@ -3,5 +3,12 @@
   "version": "0.0.1",
   "description": "Node download manager on react+electron",
   "author": "SoulEat",
-  "license": "ISC"
+  "license": "ISC",
+  "scripts": {
+    "dev": "electron ./app/dev-build/main",
+    "start": "electron ./dist/main"
+  },
+  "devDependencies": {
+    "electron": "^6.1.7"
+  }
 }

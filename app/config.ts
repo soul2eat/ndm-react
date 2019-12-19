@@ -17,7 +17,7 @@ function configGenerate(){
     if (process.env.NODE_ENV == 'production') {
         return {
             ...globalConfig,
-            file: './rect/dist/index.html',
+            file: './react/index.html',
         };
     }
 }

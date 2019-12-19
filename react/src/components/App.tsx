@@ -1,5 +1,5 @@
 import * as React from 'react';
-
+import Header from './Header'
 
 interface PageInterface {
     color: string,
@@ -16,6 +16,7 @@ class App extends React.Component<PageInterface> {
     render() {
         const { state, showSnackbar} = this.props;
         return (<div>
+            <Header/>
             <h1>Welcome to React with Typescript</h1>
             <p>The color of this page is: {this.props.color}</p>
             <p>All text: {...state}</p>
