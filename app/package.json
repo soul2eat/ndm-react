@@ -5,7 +5,7 @@
   "main": "app.js",
   "dependencies": {
     "@types/node": "^12.7.12",
-    "ws": "^7.2.0"
+    "ws": "^7.4.6"
   },
   "devDependencies": {
     "awesome-typescript-loader": "^5.2.1",
