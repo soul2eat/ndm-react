@@ -9,6 +9,6 @@
     "start": "electron ./dist/main"
   },
   "devDependencies": {
-    "electron": "^6.1.7"
+    "electron": "^13.6.6"
   }
 }
